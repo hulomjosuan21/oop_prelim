@@ -10,10 +10,11 @@ using System.Windows.Forms;
 
 namespace hulom_prelim
 {
-    public partial class Rectangle : Form, Shape
+    public partial class Rectangle : Form
     {
-        private Double Length { get; set; }
-        private Double Width { get; set; }
+        public Double Length { get; set; }
+        public Double Width { get; set; }
+
         public Rectangle()
         {
             InitializeComponent();
@@ -21,20 +22,14 @@ namespace hulom_prelim
 
         private void calc_btn_Click(object sender, EventArgs e)
         {
-            try
-            {
-                Length = Convert.ToDouble(textBox1.Text.Trim());
-                Width = Convert.ToDouble(textBox2.Text.Trim());
-                string text = String.Format($"Perimeter of Rectangle with the length of {Length} and width {Width}:");
-                Result r = new Result(text, CalculatePerimeter());
-                r.ShowDialog();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error");
-            }
-        }
+            
+            Length = Convert.ToDouble(textBox1.Text.Trim());
+            Width = Convert.ToDouble(textBox2.Text.Trim());
 
-        public double CalculatePerimeter() => 2 * (Length + Width);
+            string text = String.Format($"Perimeter of Rectangle with the length of {Length} and width {Width}:");
+
+            Result r = new Result(text, 2 * (Length + Width));
+            r.ShowDialog();
+        }
     }
 }

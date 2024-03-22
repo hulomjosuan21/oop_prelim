@@ -16,7 +16,7 @@ namespace hulom_prelim
         {
             InitializeComponent();
             label1.Text = text;
-            label2.Text = String.Format($"Result: {res} units");
+            label2.Text = "Result: "+res+" units";
         }
 
         private void Result_Load(object sender, EventArgs e)
