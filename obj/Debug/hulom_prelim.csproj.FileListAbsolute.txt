@@ -1,0 +1,15 @@
+C:\Users\FOR CLONE\Documents\hulom_prelim\bin\Debug\hulom_prelim.exe.config
+C:\Users\FOR CLONE\Documents\hulom_prelim\bin\Debug\hulom_prelim.exe
+C:\Users\FOR CLONE\Documents\hulom_prelim\bin\Debug\hulom_prelim.pdb
+C:\Users\FOR CLONE\Documents\hulom_prelim\obj\Debug\hulom_prelim.csproj.AssemblyReference.cache
+C:\Users\FOR CLONE\Documents\hulom_prelim\obj\Debug\hulom_prelim.Form1.resources
+C:\Users\FOR CLONE\Documents\hulom_prelim\obj\Debug\hulom_prelim.Properties.Resources.resources
+C:\Users\FOR CLONE\Documents\hulom_prelim\obj\Debug\hulom_prelim.Triangle.resources
+C:\Users\FOR CLONE\Documents\hulom_prelim\obj\Debug\hulom_prelim.csproj.GenerateResource.cache
+C:\Users\FOR CLONE\Documents\hulom_prelim\obj\Debug\hulom_prelim.csproj.CoreCompileInputs.cache
+C:\Users\FOR CLONE\Documents\hulom_prelim\obj\Debug\hulom_prelim.exe
+C:\Users\FOR CLONE\Documents\hulom_prelim\obj\Debug\hulom_prelim.pdb
+C:\Users\FOR CLONE\Documents\hulom_prelim\obj\Debug\hulom_prelim.Circle.resources
+C:\Users\FOR CLONE\Documents\hulom_prelim\obj\Debug\hulom_prelim.Rectangle.resources
+C:\Users\FOR CLONE\Documents\hulom_prelim\obj\Debug\hulom_prelim.Result.resources
+C:\Users\FOR CLONE\Documents\hulom_prelim\obj\Debug\hulom_prelim.Square.resources
