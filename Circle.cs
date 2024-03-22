@@ -23,9 +23,9 @@ namespace hulom_prelim
         {
             Radius = Convert.ToDouble(textBox1.Text.Trim());
 
-            string text = String.Format($"Perimeter of Cicle with the Radius of {Radius}:");
+            string text = String.Format($"2 * Pi * {Radius}:");
 
-            Result r = new Result(text, 2 * Math.PI * Radius);
+            Result r = new Result(text, 2 * (Math.PI * Radius));
             r.ShowDialog();
         }
     }

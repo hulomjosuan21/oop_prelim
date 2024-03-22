@@ -23,7 +23,7 @@ namespace hulom_prelim
         {
             Length = Convert.ToDouble(textBox1.Text.Trim());
 
-            string text = String.Format($"Perimeter of Square with the Side length of {Length}:");
+            string text = String.Format($"4 * {Length}:");
 
             Result r = new Result(text, (4 * Length));
             r.ShowDialog();

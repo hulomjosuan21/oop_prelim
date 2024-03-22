@@ -27,7 +27,7 @@ namespace hulom_prelim
             SideB = Convert.ToDouble(textBox2.Text.Trim());
             SideC = Convert.ToDouble(textBox3.Text.Trim());
 
-            string text = String.Format($"Perimeter of Triangle with the Side A of {SideA},  Side B of {SideB} and Side C of {SideC}:");
+            string text = String.Format($"{SideA} + {SideB} + {SideC}:");
 
             Result r = new Result(text, SideA + SideB + SideC);
                 r.ShowDialog();

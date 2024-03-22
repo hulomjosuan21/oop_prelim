@@ -26,7 +26,7 @@ namespace hulom_prelim
             Length = Convert.ToDouble(textBox1.Text.Trim());
             Width = Convert.ToDouble(textBox2.Text.Trim());
 
-            string text = String.Format($"Perimeter of Rectangle with the length of {Length} and width {Width}:");
+            string text = String.Format($"2 * ({Length}+{Width}):");
 
             Result r = new Result(text, 2 * (Length + Width));
             r.ShowDialog();

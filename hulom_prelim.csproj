@@ -72,7 +72,6 @@
     <Compile Include="Result.Designer.cs">
       <DependentUpon>Result.cs</DependentUpon>
     </Compile>
-    <Compile Include="Shape.cs" />
     <Compile Include="Square.cs">
       <SubType>Form</SubType>
     </Compile>
